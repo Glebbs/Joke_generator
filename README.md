@@ -1,3 +1,10 @@
 # Joke_generator
-dataset:
-  https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection
+
+## Sample train command
+```
+python .\train.py --input-dir ./texts
+```
+## Sample generate command
+```
+python .\generate.py --model .\model.pkl --length 30 --prefix "домой он ушел"
+```
