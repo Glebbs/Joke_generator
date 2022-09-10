@@ -1,4 +1,4 @@
-# Joke_generator
+# N-gram text generator
 
 ## Sample train command
 ```
